@@ -1,0 +1,11 @@
+.button--login {
+    background-color: red;
+
+}
+
+.button--navbar {
+    background-color: white;
+    color: black;
+
+    font-weight: lighter;
+}

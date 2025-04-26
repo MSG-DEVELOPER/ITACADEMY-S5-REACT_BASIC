@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  margin-top: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+ 
+}
+button{
+  background-color: #5265E1;
+  color: white;
+  font-weight: bolder;
+  padding: 0.6rem 1.6rem;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition:0.3s ;
+  margin-left: 0.7rem;
+}
+
+button:hover{
+  box-shadow: 2px 2px 5px black; 
+  transform: scale(1.08);
+}
