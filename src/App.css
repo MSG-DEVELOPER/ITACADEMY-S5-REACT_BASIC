@@ -1,4 +1,10 @@
-main{
+main {
   margin-top: 6rem;
+}
+
+p {
+  color: grey;
+  line-height: 1.5;
+  font-weight: 500;
 }
 

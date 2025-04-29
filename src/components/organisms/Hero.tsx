@@ -7,6 +7,7 @@ function Hero() {
       {/* se compone de una molecula y una imagen */}
 
       <HeroIzq />
+      {/* imagen hardcodeada */}
     </div>
   );
 }
