@@ -1,0 +1,10 @@
+.container{
+    display: flex;
+    justify-content:space-between;
+}
+
+.image{
+  
+  max-width: 50%;
+   height:auto;
+}

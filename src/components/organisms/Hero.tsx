@@ -1,13 +1,12 @@
-import "./Hero.css";
+import css from './Hero.module.css'
 import HeroIzq from "../molecules/HeroIzq/HeroIzq";
 
 function Hero() {
   return (
-    <div>
-      {/* se compone de una molecula y una imagen */}
-
+    <div className={css.container}>
       <HeroIzq />
-      {/* imagen hardcodeada */}
+
+      <img src="/illustration-hero.svg" alt="esto es un alt" className={css.image}/>
     </div>
   );
 }

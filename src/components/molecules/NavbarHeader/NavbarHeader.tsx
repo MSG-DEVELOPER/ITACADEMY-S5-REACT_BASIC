@@ -9,10 +9,11 @@ function NavbarHeader() {
         <img src="/logo-bookmark.svg" alt="logo de empresa" />
       </div>
       <div>
-        <Button class="navbar">FEATURES</Button>
-        <Button class="navbar">PRICING</Button>
-        <Button class="navbar">CONTACT</Button>
-        <Button class="login">LOGIN</Button>
+        <Button clas="navbar">FEATURES</Button>
+        <Button clas="navbar">PRICING</Button>
+        <Button clas="navbar">CONTACT</Button>
+        <Button clas="login">LOGIN</Button>
+
       </div>
       </header>
   );
