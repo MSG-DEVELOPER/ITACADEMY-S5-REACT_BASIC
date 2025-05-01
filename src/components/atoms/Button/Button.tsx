@@ -1,19 +1,20 @@
-import './Button.css'
+import css from'./Button.module.css'
 
 interface buttonProps{
 
     children:string;
-    class?:string;
+    clas?: keyof typeof css;
 }
 
 function Button(props:buttonProps) {
     
+  const FinalClass = props.clas ? css[props.clas] : "";
   return (
 
     <>
-      <button className={`button--${props.class}`}>{props.children}</button>
+      <button className={FinalClass}>{props.children}</button>
     </>
   )
 }
 
-export default Button
+export default Button;
