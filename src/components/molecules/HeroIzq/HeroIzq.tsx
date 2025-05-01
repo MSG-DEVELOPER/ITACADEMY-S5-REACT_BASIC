@@ -5,7 +5,7 @@ function HeroIzq() {
   return (
     <div className={style.box}>
       <h1 className={style.title}>
-        A Simple Bookmark <br />Manager
+        A Simple Bookmark Manager
       </h1>
 
       <p className={style.p}>
@@ -14,7 +14,7 @@ function HeroIzq() {
       </p>
       <div className={style.heroCallToAction}>
         <Button>Get it on Chrome </Button>
-        <Button class="navbar" >Get it on Firefox </Button>
+        <Button clas="navbar" >Get it on Firefox </Button>
       </div>
     </div>
   );
