@@ -1,0 +1,25 @@
+.container{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+
+    gap: 1.5rem;
+    border:solid 2px yellow;
+    
+    
+    
+    
+}
+
+.content{
+    margin-top: 3rem;
+}
+
+.tabs{
+ border-bottom: dotted 1px grey;
+  display: flex; 
+  gap:2rem;
+}
+
