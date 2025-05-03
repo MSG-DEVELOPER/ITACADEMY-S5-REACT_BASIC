@@ -1,6 +1,6 @@
 main {
   margin-top: 6rem;
-  
+
   display: flex;
   flex-direction: column;
 
@@ -23,8 +23,16 @@ p {
   margin-top: 3rem;
 }
 
-.p-textFeatures{
-  text-align:center; 
-  width:90%;
+.p-textFeatures {
+  text-align: center;
+  width: 90%;
 }
 
+.section_Features {
+
+  margin-top: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
