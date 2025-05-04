@@ -1,0 +1,31 @@
+  
+
+  .card{
+    width: 14rem;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0px 6px 12px -3px rgba(0, 0, 0, 0.8);
+    border: 0.5px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .cardTitle{
+    color: black;
+    font-weight: 900;
+  }
+
+  .separator {
+    border-top: 3px dotted #ccc; /* Límite superior discontínuo gris claro */
+   margin-top: 1rem;
+   margin-bottom: 1.5rem;
+ }
+
+ .img{
+     padding:4rem ;
+     padding-bottom: 1rem;
+     padding-top: 3rem;
+   }
+
+   .space{
+    margin-top: 1.5rem;
+   }
+      

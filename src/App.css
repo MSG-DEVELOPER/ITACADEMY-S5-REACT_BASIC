@@ -13,17 +13,19 @@ p {
   font-weight: 500;
 }
 
-.section_textFeatures {
+.section_textFeatures,
+.section_textDownload {
 
   width: 40%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 3rem;
+  margin-top: 7rem;
 }
 
-.p-textFeatures {
+.p-textFeatures,
+.p-textDownload {
   text-align: center;
   width: 90%;
 }
