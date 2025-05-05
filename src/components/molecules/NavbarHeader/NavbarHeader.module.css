@@ -1,0 +1,40 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border: solid 2px black;
+}
+
+
+.iconHamburgerMenu{
+    display: none;
+}
+   
+
+.navbarLinks{
+    display: flex;
+    gap: 2rem;
+}
+
+
+
+.burguerMenu{
+  
+    position: fixed;
+    top: 100px;
+    left: 100px;
+    z-index: 10;
+}
+  
+
+@media (max-width:1024px) {
+    .iconHamburgerMenu{
+        display: flex;
+    }
+
+    .navbarLinks{
+        display: none;
+    }
+
+
+}
