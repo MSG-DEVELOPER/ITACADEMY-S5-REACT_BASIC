@@ -8,3 +8,11 @@
     color: black;
     font-weight: lighter;
 }
+
+.tab{
+    background-color: white;
+    color: black;
+    font-weight:bold;
+    border-bottom: 1px grey solid;
+    border-radius: 0;
+}

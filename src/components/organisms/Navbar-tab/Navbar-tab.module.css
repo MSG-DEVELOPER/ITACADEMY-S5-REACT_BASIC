@@ -18,6 +18,17 @@
   gap:2rem;
 }
 
+@media(max-width:480px){
+
+    .tabs{
+        flex-direction: column;
+       
+      
+    }
+
+
+}
+
 
     
     
