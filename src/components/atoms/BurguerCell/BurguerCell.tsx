@@ -1,9 +1,18 @@
 import css from './BurguerCell.module.css'
 
+interface BurguerCellProps{
+    text:string;
+    extraStyle?:string;
 
-function BurguerCell() {
+}
+
+function BurguerCell(props:BurguerCellProps) {
   return (
-    <div>BurguerCell</div>
+
+    <div>
+        <button className={css.container + " " + props.extraStyle }>{props.text}</button>
+       
+    </div>
   )
 }
 
