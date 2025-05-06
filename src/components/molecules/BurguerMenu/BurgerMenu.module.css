@@ -3,13 +3,9 @@
    background-color: rgb(213, 213, 233);
    border-radius: 5px;
    width: 25vw;
-     
-
-    /* Animación */
-   
-    animation: fadeIn 0.8s ease forwards;
+   animation: fadeIn 0.8s ease forwards;
 }
-
+   
 .login{
   background-color: red;
 }
@@ -28,5 +24,21 @@
       transform: translateY(0);
     }
   }
+
+
+
+  @media(max-width:768px){
+    .container{
+      width: 43vw;
+    }
+  }
+
+  @media(max-width:480px){
+    .container{
+      width: 90vw;
+    }
+  }
+
+
   
   
