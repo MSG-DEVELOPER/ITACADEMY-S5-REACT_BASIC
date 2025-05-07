@@ -25,14 +25,16 @@ function NavbarTab() {
       <div className={css.tabs} >
 
         {tabs.map((tab, index) => (
-          <Button clas="navbar" key={tab.label} callback={() => setActiveTab(index)}>
+          <Button clas="tab" key={tab.label} callback={() => setActiveTab(index)}>
             {tab.label}
           </Button>
         ))}
 
       </div>
 
-      <div className={css.content}>{tabs[activeTab].content}</div>
+      <div className={css.content}>
+        {tabs[activeTab].content}
+      </div>
     </div>
   );
 }
