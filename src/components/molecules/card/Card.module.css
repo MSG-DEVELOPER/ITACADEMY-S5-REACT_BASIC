@@ -28,4 +28,9 @@
    .space{
     margin-top: 1.5rem;
    }
+
+   @media(max-width:480px){
+
+
+   }
       
