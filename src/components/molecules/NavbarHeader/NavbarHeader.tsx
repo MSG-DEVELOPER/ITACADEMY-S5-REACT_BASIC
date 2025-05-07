@@ -28,9 +28,9 @@ function NavbarHeader() {
         </div>
       
           <div className={css.iconHamburgerMenu}>
-          <span><button onClick={hamburguerClicked}><img src="/icon-hamburger.svg" alt="menu con icono hamburguesa" /></button></span>
-          <span></span>
-          <span></span>
+          <span>
+            <Button clas="navbar" callback={hamburguerClicked}><img src="/icon-hamburger.svg" alt="menu con icono hamburguesa" /></Button>
+          </span>
         </div>
       
         </header>

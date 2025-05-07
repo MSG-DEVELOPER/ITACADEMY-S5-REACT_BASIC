@@ -1,17 +1,41 @@
-.container{
+.container {
     display: flex;
     gap: 5rem;
+    border: 5px dotted burlywood;
 }
 
-.image{
+.image {
     width: 35vw;
 }
 
-.featuresContent{
+.featuresContent {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
     justify-content: center;
     align-items: flex-start;
-}
+    border: 1px black solid;
    
+}
+
+
+@media(max-width:480px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .image{
+        width:80vw;
+    }
+    
+    .featuresContent {
+        align-items: center;
+        >p{
+            text-align: center;
+        }
+
+        >Button{
+           display: none; 
+        }
+    }
+}
