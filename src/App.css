@@ -37,6 +37,7 @@ p {
   align-items: center;
   justify-content: center;
   width: 100%;
+ 
 }
 
 .section_Download{
@@ -46,6 +47,16 @@ p {
   justify-items:center;
 }
 
+
+
+@media(max-width:768px){
+   .p-textFeatures{
+    width: 100%;
+   }
+   .section_textFeatures{
+    width: 80%;
+   }
+}
 
 
 @media(max-width:480px){
