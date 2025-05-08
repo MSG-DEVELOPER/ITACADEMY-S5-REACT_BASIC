@@ -53,7 +53,8 @@ p {
    .p-textFeatures{
     width: 100%;
    }
-   .section_textFeatures{
+   .section_textFeatures,
+   .section_textDownload{
     width: 80%;
    }
 }

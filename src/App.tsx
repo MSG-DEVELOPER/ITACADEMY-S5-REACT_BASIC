@@ -34,6 +34,7 @@ function App() {
           <DownloadZone />
         </section>
       </main>
+      <div><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /></div>
     </div>
   );
 }
