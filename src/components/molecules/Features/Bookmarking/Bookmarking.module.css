@@ -1,7 +1,7 @@
 .container {
     display: flex;
     gap: 5rem;
-    border: 5px dotted burlywood;
+   
 }
 
 .image {
@@ -14,7 +14,7 @@
     gap: 1.5rem;
     justify-content: center;
     align-items: flex-start;
-    border: 1px black solid;
+   
    
 }
 
@@ -30,12 +30,14 @@
     
     .featuresContent {
         align-items: center;
-        >p{
-            text-align: center;
-        }
-
-        >Button{
-           display: none; 
-        }
-    }
-}
+        margin-top: -3rem;
+         >p{
+             text-align: center;
+         }
+ 
+         >Button{
+            display: none; 
+         }
+     }
+ }
+      

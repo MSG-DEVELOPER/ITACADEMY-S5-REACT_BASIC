@@ -1,8 +1,8 @@
 .container{
     display: flex;
     justify-content: center;
+    align-items: center;
     width: 90%;
-    
     gap: 3rem;
 }
 
@@ -12,4 +12,20 @@
 
 .margin2{
     margin-top: 6rem;
+}
+
+@media(max-width:480px){
+
+    .container{
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+      
+        
+    }
+
+    .margin1,
+    .margin2{
+        margin-top: 1rem;
+    }
 }
