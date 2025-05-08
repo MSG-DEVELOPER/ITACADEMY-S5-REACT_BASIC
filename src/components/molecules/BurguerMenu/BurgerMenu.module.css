@@ -1,0 +1,44 @@
+.container{
+   border: solid 1px rgb(5, 5, 5); 
+   background-color: rgb(213, 213, 233);
+   border-radius: 5px;
+   width: 25vw;
+   animation: fadeIn 0.8s ease forwards;
+}
+   
+.login{
+  background-color: red;
+}
+
+
+
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+  
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+
+
+  @media(max-width:768px){
+    .container{
+      width: 43vw;
+    }
+  }
+
+  @media(max-width:480px){
+    .container{
+      width: 90vw;
+    }
+  }
+
+
+  
+  

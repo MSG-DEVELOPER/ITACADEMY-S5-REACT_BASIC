@@ -1,0 +1,43 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.904);
+    position: fixed;
+    top:0;
+    right: 0;
+}
+
+
+.iconHamburgerMenu{
+    display: none;
+}
+   
+
+.navbarLinks{
+    display: flex;
+    gap: 2rem;
+}
+
+
+
+.burguerMenu{
+  
+    position: fixed;
+    top: 2.5rem;
+    right: 0.1rem;
+    z-index: 10;
+}
+  
+
+@media (max-width:1024px) {
+    .iconHamburgerMenu{
+        display: flex;
+    }
+
+    .navbarLinks{
+        display: none;
+    }
+
+
+}

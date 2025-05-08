@@ -37,4 +37,34 @@ p {
   align-items: center;
   justify-content: center;
   width: 100%;
+ 
+}
+
+.section_Download{
+
+  width:100%;
+  margin-top:3rem;
+  justify-items:center;
+}
+
+
+
+@media(max-width:768px){
+   .p-textFeatures{
+    width: 100%;
+   }
+   .section_textFeatures,
+   .section_textDownload{
+    width: 80%;
+   }
+}
+
+
+@media(max-width:480px){
+  .section_textFeatures,
+  .section_textDownload
+  {
+    width: 100%;
+    margin-top: 10rem;
+  }
 }

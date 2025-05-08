@@ -2,7 +2,7 @@ import css from'./Button.module.css'
 
 interface buttonProps{
 
-    children:string;
+    children:string | React.ReactElement<HTMLImageElement>;
     clas?: keyof typeof css;
     callback?: ()=>void;
 

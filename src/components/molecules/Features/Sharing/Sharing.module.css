@@ -15,4 +15,26 @@
     justify-content: center;
     align-items: flex-start;
 }
+
+@media(max-width:480px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .image{
+        width:80vw;
+    }
+    
+    .featuresContent {
+        align-items: center;
+        margin-top: -3rem;
+        >p{
+            text-align: center;
+        }
+
+        >Button{
+           display: none; 
+        }
+    }
+}
    
